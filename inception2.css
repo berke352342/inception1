@@ -1,0 +1,76 @@
+/*  some basic styles */
+body, h1, h2, p, a {
+  margin: 1;  /*  its 1 because I want Inception and Directed by Christopher Nolan to separate from each other. */
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* general body styles */
+body {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* header styles */
+header {
+  margin-bottom: 50px;
+}
+
+header h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 25px; /* not too big thats good */
+  color: #ccc;
+}
+
+/*poster section */
+.poster {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+}
+
+.poster img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 50px; /* to set the edges of the poster so it looks good at 50px */
+}
+
+.poster-info {
+  position: static;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-0.10%);
+  color: white;
+  font-size: 18px;
+  background-color: rgb(18, 11, 70);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.poster-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.poster-info a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: black;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+/* footer styles */
+footer {
+  margin-top: 50px;
+  font-size: 13px;
+  color: #888;
+}
